@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+ 
+    color: black;
+  }
+  .logo {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    gap: 0.5rem; /* Add spacing between the image and text */
+  } 
+  .Register{
+    border: 1px solid rgba(149, 36, 255, 1);
+    display: flex;
+   margin-right: 45px; 
+    padding: 4px 15px;
+    color:  rgba(149, 36, 255, 1);
+    margin-left: 25px;
+    border-radius: 10px;
+  } 
+.logoImage {
+  width: 40px; /* Adjust the size of the image */
+  height: 40px;
+
+  object-fit: cover; /* Ensures the image scales properly */
+}
+.Register:hover{
+  background:  rgba(149, 36, 255, 1);
+  color: white;
+}
+.homelink{
+  color:  rgba(149, 36, 255, 1);
+}
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navLinks li a {
+    text-decoration: none;
+  
+    font-size: 13px;
+  }
+  .icon{
+    font-size: 10px;
+    margin: 3px;
+  }
