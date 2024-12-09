@@ -1,46 +1,73 @@
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 //import { motion } from "framer-motion";
 import styles from "../styles/section1.module.css";
 
 const Section1 = () => {
   return (
-    <div className={styles.sectionContainer}>
-        {/* Right Side - Text and Button */}
-        <div className={styles.textSection}>
-        <div className={styles.section}>
-          <h2>Section 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at facilisis lorem.</p>
-        </div>
-        <div className={styles.section}>
-          <h2>Section 2</h2>
-          <p>Quisque tincidunt lorem sit amet arcu porttitor, vel tempor eros elementum.</p>
-        </div>
-        <div className={styles.section}>
-          <h2>Section 3</h2>
-          <p>Vivamus maximus, nisl sit amet ultricies congue, neque eros vehicula nisi, id euismod nisl.</p>
-        </div>
-        <button className={styles.actionButton}>Learn More</button>
-      </div>
+    <div className={styles.container}>
+      {/* Hero Section */}
+      <section className={styles.hero}>
+        <h1>Connect, Collaborate, Innovate!</h1>
+        <p>
+          Every last Friday of the month, we bring together the brightest minds
+          in our local tech ecosystem. Whether you're a seasoned entrepreneur or
+          just starting your journey, Founder's Friday is your launchpad for new
+          ideas, valuable connections, and game-changing opportunities.
+        </p>
+        <button className={styles.registerButton}>
+          Register For Our Next Event
+        </button>
+        <p className={styles.eventDate}>
+          Join us for our next meetup on the 26th of July 2024.
+        </p>
+      </section>
 
-      {/* Left Side - Images */}
-      <div className={styles.imageSection}>
-        <div className={styles.imageCard}>
-          <Image src="/logo.png" alt="Image 1" width={120} height={120} className={styles.imgSmall} />
-        </div>
-        <div className={styles.imageCard}>
-          <Image src="/logo.png" alt="Image 2" width={180} height={180} className={styles.imgMedium} />
-        </div>
-        <div>  <div className={styles.imageCard}>
-          <Image src="/logo.png" alt="Image 3" width={100} height={100} className={styles.imgLarge} />
-        </div>
-        <div className={styles.imageCard}>
-          <Image src="/logo.png" alt="Image 4" width={120} height={120} className={styles.imgSmall} />
-        </div></div>
-      </div>
+      {/* Diagonal Line */}
+      <div className={styles.diagonalLine}></div>
 
-      {/* Thick Line */}
-      <div className={styles.thickLine}></div>
+      {/* Images Section */}
+      <section className={styles.images}>
+        <div className={styles.image}>
+          <Image
+            src="/founders-friday-1.jpg"
+            alt="Founder's Friday"
+            width={300}
+            height={200}
+          />
+        </div>
+        <div className={styles.image}>
+          <Image
+            src="/founders-friday-2.jpg"
+            alt="Founder's Friday"
+            width={300}
+            height={200}
+          />
+        </div>
+        <div className={styles.image}>
+          <Image
+            src="/founders-friday-3.jpg"
+            alt="Founder's Friday"
+            width={300}
+            height={200}
+          />
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className={styles.about}>
+        <h2>Who Are We?</h2>
+        <p>
+          Born from the vibrant startup ecosystem of Abuja, we recognized the
+          need for a consistent, high-quality networking platform where
+          founders, innovators, and tech enthusiasts could connect, share ideas,
+          and foster collaboration.
+        </p>
+        <div className={styles.buttons}>
+          <button className={styles.registerButton}>Register</button>
+          <button className={styles.donateButton}>Donate</button>
+        </div>
+      </section>
     </div>
   );
 };
