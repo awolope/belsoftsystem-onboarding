@@ -42,6 +42,9 @@ text-decoration-skip-ink: none;
 
   margin-bottom: 1.5rem;
 }
+.icon{
+    font-size:10px;
+}
 .content h6{
 
 font-family: Montserrat;
@@ -72,6 +75,7 @@ text-decoration-skip-ink: none;
 .formGroup label {
   margin-bottom: 0.5rem;
   font-size: 14px;
+  text-align:left;
 }
 
 .formGroup input,
@@ -202,4 +206,137 @@ text-decoration-skip-ink: none;
   font-size: 12px;
   font-weight: bold;
   color: #4b0082;
+}
+/* Default styles (for larger screens) are already defined */
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0 ;
+    padding:0.5rem;
+  }
+
+  .circle {
+    width: 50%;
+    height: 100px;
+  }
+.circle2{
+    width:50%;
+    height: 100px;
+}
+.circle P{
+    font-size:7px;
+    line-height:8px;
+}
+.circle2 P{
+    font-size:8px;
+}
+.circle h3{
+font-size:10px;
+margin-top:20px;
+}
+.circle2 h3{
+font-size:10px;
+margin-top:20px;
+}
+  .formGroup {
+    flex: 1 1 100%;
+  }
+
+  .sponsorButton {
+    width: 100%;
+  }
+
+  .head h1 {
+    font-size: 28px;
+  }
+
+  .head h5 {
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (tablets, 768px to 1024px) */
+@media only screen and (max-width: 1024px) {
+  .container {
+    gap: 3rem;
+  }
+
+  .content {
+    max-width: 70%;
+  }
+
+  .card {
+    max-width: 80%;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .circle h3 {
+    font-size: 8px;
+    margin-top: 40px;
+  }
+
+  .head h1 {
+    font-size: 30px;
+  }
+
+  .head h5 {
+    font-size: 14px;
+  }
+}
+
+/* Extra small devices (phones less than 576px) */
+@media only screen and (max-width: 576px) {
+  .container {
+    gap: 1rem;
+  }
+
+  .content h5, .content p {
+    text-align: center;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .circle h3 {
+    font-size: 7px;
+    margin-top: 20px;
+  }
+
+  .formGroup input,
+  .formGroup textarea {
+    font-size: 12px;
+  }
+
+  .sponsorButton {
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+
+  .head h1 {
+    font-size: 24px;
+    margin: 20px;
+  }
+
+  .head h5 {
+    font-size: 10px;
+  }
 }

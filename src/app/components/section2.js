@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Section2.module.css";
-
+import { FaArrowRight } from "react-icons/fa";
 const Section2 = () => {
   return (
     <div className={styles.Section2}>
@@ -34,18 +34,18 @@ const Section2 = () => {
             <input type="text" id="name" placeholder="Full name" />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="email">Company Name (optional)</label>
-            <input type="email" id="email" placeholder="Enter your email" />
+            <label htmlFor="name">Company Name (optional)</label>
+            <input type="text" id="companyname" placeholder="Enter your email" />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="amount">Sponsorship Amount</label>
-            <input type="number" id="amount" placeholder="Enter amount" />
+            <label htmlFor="email">Email Address</label>
+            <input type="email" id="email" placeholder="Email Address" />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="message">Message</label>
-            <textarea id="message" placeholder="Write a message"></textarea>
+            <label htmlFor="number">Phone</label>
+            <input type="number" id="Number" placeholder="Phone Number" />
           </div>
-          <button type="submit" className={styles.sponsorButton}>Sponsor</button>
+          <button type="submit" className={styles.sponsorButton}>Sponsor <FaArrowRight className={styles.icon} /></button>
         </form>
       </div>
      </div>
