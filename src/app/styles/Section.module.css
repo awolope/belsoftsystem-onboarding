@@ -1,0 +1,157 @@
+/* Basic layout for the section */
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  overflow:hidden;
+  
+}
+
+
+.registerButton2 {
+  background-color: #4b0082;
+  color: white;
+  border: 1px solid #4b0082;
+  padding: 0.7rem 1.8rem;
+  font-family: Montserrat;
+  font-size: 14px;
+
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 1rem 0;
+}
+
+.registerButton2:hover {
+  background-color: white;
+  color: #4b0082;
+}
+.textLeft {
+  flex: 1;
+  margin:40px;
+  max-width: 60%; /* Makes sure the text area doesn't take up too much space */
+}
+.textLeft h6{
+  color: #4b0082;
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 700;
+line-height: 27.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.textLeft h2 {
+ 
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 43.75px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.textLeft p {
+
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 18.8px;
+text-align: left;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.imagesRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.imagesRight .imageContainer {
+  position: relative;
+}
+.imagesRight .image1{
+  left:60px;
+  position:absolute;
+}
+.imagesRight .image1,
+.imagesRight .image2 {
+  width: 100%;
+  max-width: 150px; /* Set a max-width for images */
+}
+
+.imagesRight .image2 {
+  position: relative;
+  top: 100px; /* Makes the second image slightly higher than the first */
+ 
+}
+
+/* For medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .textLeft {
+    max-width: 50%; /* Slightly larger text area */
+  }
+
+  .imagesRight {
+    flex-direction: row; /* Display images side by side */
+    justify-content: space-around;
+  }
+
+  .imagesRight .image1,
+  .imagesRight .image2 {
+    max-width: 180px;
+  }
+}
+
+/* For small screens (phones) */
+@media (max-width: 767px) {
+  .section {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+    padding:1rem;
+  }
+
+  .textLeft {
+    max-width: 100%;
+    margin: 0 20px;
+  }
+
+  .textLeft h6,
+  .textLeft h2 {
+    font-size: 18px; /* Adjust font sizes */
+  }
+
+  .textLeft p {
+    font-size: 14px;
+  }
+
+  .imagesRight {
+    align-items: center; /* Center the images */
+  }
+
+  .imagesRight .image1,
+  .imagesRight .image2 {
+    max-width: 120px; /* Smaller size for phones */
+    height: 120px;
+  }
+
+  .imagesRight .image1 {
+    position: static; /* Reset positioning for smaller screens */
+  }
+
+  .imagesRight .image2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+}
+

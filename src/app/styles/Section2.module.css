@@ -1,0 +1,205 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+justify-content:center;
+ 
+  gap: 4rem;
+  
+}
+.Section2{
+ padding: 4rem;
+}
+
+.content {
+  flex: 1;
+  margin-top:30px;
+  justify-content: center;
+  max-width: 50%;
+  
+}
+
+.content h5 {
+
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 23.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  margin-bottom: 1rem;
+}
+
+.content p {
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+line-height: 14.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  margin-bottom: 1.5rem;
+}
+.content h6{
+
+font-family: Montserrat;
+font-size: 24px;
+margin-bottom:10px;
+font-style: italic;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+opacity:0.5;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.formGroup {
+  flex: 1 1 calc(50% - 1rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.sponsorButton {
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.card {
+  flex: 1;
+  margin:13px;
+  max-width: 40%;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(220, 182, 255, 1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.circleRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.circle {
+  background: rgba(220, 182, 255, 1);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+ 
+
+  justify-content: center;
+
+
+}
+.circle h3{
+    margin-top:50px;
+    font-family: Montserrat;
+font-size: 10px;
+font-weight: 700;
+line-height: 12.8px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.head h5{
+    text-align:left;
+
+font-family: Montserrat;
+font-size: 15px;
+margin-bottom:20px;
+font-weight: 700;
+line-height: 18.5px;
+column:rgba(92, 0, 179, 1);
+color:#4b0082;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.head h1{
+  
+font-family: Montserrat;
+font-size: 35px;
+margin:30px;
+font-weight: 700;
+line-height: 40.75px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.circle2 h3{
+      margin-top:50px;
+    font-family: Montserrat;
+font-size: 10px;
+font-weight: 700;
+line-height: 12.8px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.circle p{
+   
+font-family: Montserrat;
+font-size: 8px;
+font-weight: 400;
+line-height: 11.6px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.circle2 p{
+   
+font-family: Montserrat;
+font-size: 8px;
+font-weight: 400;
+line-height: 11.6px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.circle2 {
+  background:rgba(237, 219, 255, 1);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+ 
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4b0082;
+}

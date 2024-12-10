@@ -1,106 +1,299 @@
 .container {
-  width: 90%;
+  width: 92%;
+   background-color:#FDF7FF;
   margin: 0 auto;
   padding: 2rem;
+  overflow: hidden;
   position: relative;
+}
+.imgdiv {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero {
-  text-align: center;
-  margin-bottom: 2rem;
+  text-align: left;
+  width: 50%; /* Takes 50% width */
   position: relative;
   z-index: 2;
 }
-
+.herop {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 20.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 .hero h1 {
-  font-size: 2.5rem;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
   color: #4b0082;
 }
 
 .hero p {
   font-size: 1.2rem;
-  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
   margin: 1rem 0;
 }
 
-.register-button {
+.registerButton {
   background-color: #4b0082;
   color: white;
-  border: none;
-  padding: 0.7rem 1.5rem;
-  font-size: 1rem;
+  border: 1px solid #4b0082;
+  padding: 0.7rem 1.8rem;
+  font-family: Montserrat;
+  font-size: 14px;
+
   cursor: pointer;
-  border-radius: 5px;
-  margin: 1rem;
+  border-radius: 15px;
+  margin: 1rem 0;
 }
 
-.register-button:hover {
-  background-color: #5c0fb3;
+.registerButton:hover {
+  background-color: white;
+  color: #4b0082;
 }
 
-.event-date {
-  color: #888;
-}
+.eventDate {
+  font-family: Montserrat;
+  font-size: 9px;
+  font-weight: 600;
+  color: #5c0fb3;
+  line-height: 12.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 
-.images {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.section2 {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  margin: 20px;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.section2img {
+  width: 50%;
+  position: relative;
 }
 
-.image {
-  border: 2px solid #4b0082;
-  padding: 5px;
+.imagesGrid {
+  width: 50%; /* Takes 50% width */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two images per row */
+  gap: 1rem;
+
+  position: relative;
+  z-index: 2;
+}
+
+.imageCard {
+  width: 100%;
+  position: relative;
   border-radius: 10px;
+}
+.diagonalLine {
+  position: absolute;
+  top: 49%; /* Adjust to align with Section 2 */
+  right: 0;
+
+  width: 100%;
+
+  height: 8px; /* Thickness of the line */
+  background: #4b0082; /* Solid color for the diagonal */
+  transform: rotate(-40deg); /* Angle of the diagonal */
+  z-index: 0; /* Ensure it's behind other elements */
 }
 
 .about {
-  text-align: center;
-  margin-top: 2rem;
+  text-align: left;
+  margin-left: 10px;
+  width: 45%;
 }
 
 .about h2 {
-  color: #4b0082;
-  font-size: 2rem;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 46.25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.aboutpp {
+  color: black;
+  font-family: Montserrat;
+  font-size: 10px;
+
+  line-height: 18.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.curvedLine {
+  position: absolute;
+  top: 62%; /* Adjust to align with the "W" */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35px; /* Adjust to control the curve size */
+  height: 275px; /* Adjust to control the curve height */
+  border: 2px solid #4b0082;
+  border-radius: 15px 0 0 15px; /* Create the left-facing half-circle */
+  border-right: none; /* Remove the right part of the border */
+  z-index: 1;
 }
 
 .about p {
-  color: #555;
-  font-size: 1.2rem;
-  margin: 1rem auto;
-  max-width: 600px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: (--Grays-Gray, rgba(142, 142, 147, 1));
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .buttons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 1rem;
+  margin-bottom: 42px;
 }
 
-.donate-button {
+.donateButton {
   background-color: transparent;
   color: #4b0082;
   border: 2px solid #4b0082;
-  padding: 0.7rem 1.5rem;
-  font-size: 1rem;
+  padding: 0.7rem 1.8rem;
+  font-family: Montserrat;
+  font-size: 14px;
+
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 15px;
+  margin: 1rem 0;
 }
 
-.donate-button:hover {
+.donateButton:hover {
   background-color: #4b0082;
   color: white;
 }
+/* For Medium Screens and Above (Tablets and Larger Devices) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero {
+    width: 80%; /* Adjust width on medium screens */
+  }
 
-/* Diagonal Line */
-.diagonal-line {
-  position: absolute;
-  top: 15%;
-  left: -10%;
-  width: 150%;
-  height: 4px;
-  background: linear-gradient(to right, #4b0082, #a066d3);
-  transform: rotate(-10deg);
-  z-index: 1;
+  .about {
+    width: 80%;
+  }
+
+  .section2 {
+    margin: 40px 10px;
+  }
+
+  .imagesGrid {
+    width: 50%;
+  }
+
+  .section2img {
+    width: 50%;
+  }
+
+  .diagonalLine {
+    display: none;
+  }
+  .curvedLine {
+    display: none;
+  }
+}
+/* For Smaller Screens (Phones) */
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+    margin-left: -1px;
+    padding: 1rem;
+  }
+  .imageCard {
+    max-width: 100px;
+    margin-left: -12px;
+  }
+  .curvedLine {
+    display: none;
+  }
+  .hero,
+  .about {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 12px;
+  }
+
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagesGrid {
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section2img {
+    width: 100%;
+  }
+
+  .diagonalLine {
+    display: none;
+  }
+
+  .aboutpp {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .about p {
+    font-size: 11px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .donateButton,
+  .registerButton {
+    width: 100%; /* Full-width buttons */
+    margin: 0.5rem 0;
+  }
 }
