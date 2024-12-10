@@ -1,63 +1,58 @@
 .container {
   display: flex;
   justify-content: space-between;
-justify-content:center;
- 
+  justify-content: center;
+
   gap: 4rem;
-  
 }
-.Section2{
- padding: 4rem;
+.Section2 {
+  padding: 4rem;
 }
 
 .content {
   flex: 1;
-  margin-top:30px;
+  margin-top: 30px;
   justify-content: center;
   max-width: 50%;
-  
 }
 
 .content h5 {
-
-font-family: Montserrat;
-font-size: 20px;
-font-weight: 700;
-line-height: 23.6px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 
   margin-bottom: 1rem;
 }
 
 .content p {
-font-family: Montserrat;
-font-size: 10px;
-font-weight: 400;
-line-height: 14.6px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 
   margin-bottom: 1.5rem;
 }
-.icon{
-    font-size:10px;
+.icon {
+  font-size: 10px;
 }
-.content h6{
-
-font-family: Montserrat;
-font-size: 24px;
-margin-bottom:10px;
-font-style: italic;
-font-weight: 400;
-line-height: 28.8px;
-text-align: left;
-opacity:0.5;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+.content h6 {
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  opacity: 0.5;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .form {
@@ -75,7 +70,7 @@ text-decoration-skip-ink: none;
 .formGroup label {
   margin-bottom: 0.5rem;
   font-size: 14px;
-  text-align:left;
+  text-align: left;
 }
 
 .formGroup input,
@@ -99,7 +94,7 @@ text-decoration-skip-ink: none;
 
 .card {
   flex: 1;
-  margin:13px;
+  margin: 13px;
   max-width: 40%;
   background: white;
   box-shadow: 0px 4px 8px rgba(220, 182, 255, 1);
@@ -121,86 +116,76 @@ text-decoration-skip-ink: none;
   width: 150px;
   height: 150px;
   border-radius: 50%;
- 
 
   justify-content: center;
-
-
 }
-.circle h3{
-    margin-top:50px;
-    font-family: Montserrat;
-font-size: 10px;
-font-weight: 700;
-line-height: 12.8px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+.circle h3 {
+  margin-top: 50px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.head h5{
-    text-align:left;
+.head h5 {
+  text-align: left;
 
-font-family: Montserrat;
-font-size: 15px;
-margin-bottom:20px;
-font-weight: 700;
-line-height: 18.5px;
-column:rgba(92, 0, 179, 1);
-color:#4b0082;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-family: Montserrat;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 18.5px;
+  column: rgba(92, 0, 179, 1);
+  color: #4b0082;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.head h1{
-  
-font-family: Montserrat;
-font-size: 35px;
-margin:30px;
-font-weight: 700;
-line-height: 40.75px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+.head h1 {
+  font-family: Montserrat;
+  font-size: 35px;
+  margin: 30px;
+  font-weight: 700;
+  line-height: 40.75px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.circle2 h3{
-      margin-top:50px;
-    font-family: Montserrat;
-font-size: 10px;
-font-weight: 700;
-line-height: 12.8px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+.circle2 h3 {
+  margin-top: 50px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.circle p{
-   
-font-family: Montserrat;
-font-size: 8px;
-font-weight: 400;
-line-height: 11.6px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+.circle p {
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.circle2 p{
-   
-font-family: Montserrat;
-font-size: 8px;
-font-weight: 400;
-line-height: 11.6px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+.circle2 p {
+  font-family: Montserrat;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 11.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 .circle2 {
-  background:rgba(237, 219, 255, 1);
+  background: rgba(237, 219, 255, 1);
   width: 150px;
   height: 150px;
   border-radius: 50%;
- 
+
   align-items: center;
   justify-content: center;
   font-size: 12px;
@@ -224,33 +209,33 @@ text-decoration-skip-ink: none;
 
   .card {
     width: 100%;
-    margin: 0 ;
-    padding:0.5rem;
+    margin: 0;
+    padding: 0.5rem;
   }
 
   .circle {
     width: 50%;
     height: 100px;
   }
-.circle2{
-    width:50%;
+  .circle2 {
+    width: 50%;
     height: 100px;
-}
-.circle P{
-    font-size:7px;
-    line-height:8px;
-}
-.circle2 P{
-    font-size:8px;
-}
-.circle h3{
-font-size:10px;
-margin-top:20px;
-}
-.circle2 h3{
-font-size:10px;
-margin-top:20px;
-}
+  }
+  .circle P {
+    font-size: 7px;
+    line-height: 8px;
+  }
+  .circle2 P {
+    font-size: 8px;
+  }
+  .circle h3 {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .circle2 h3 {
+    font-size: 10px;
+    margin-top: 20px;
+  }
   .formGroup {
     flex: 1 1 100%;
   }
@@ -307,7 +292,8 @@ margin-top:20px;
     gap: 1rem;
   }
 
-  .content h5, .content p {
+  .content h5,
+  .content p {
     text-align: center;
   }
 

@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/IMG_2647 1.png");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  color: white;
+}
+
+.left {
+  flex: 1;
+}
+
+.logo {
+  display: block;
+}
+
+.right {
+  flex: 2;
+  text-align: left;
+}
+
+.mainHeading {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 62.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  margin-bottom: 1rem;
+}
+
+.animatedHeading {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 62.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(149, 36, 255, 1);
+  font-style: italic;
+  margin-bottom: 1rem;
+
+  animation: fade-in 3s infinite;
+}
+
+.paragraph {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  margin-top: 1rem;
+}
+
+/* Add animations for fade-in effect */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
