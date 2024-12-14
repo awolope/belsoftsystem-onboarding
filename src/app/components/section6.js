@@ -133,9 +133,11 @@ const AttendeesAndFAQ = () => {
         </div>
       </div>
 
-      <img
+      <Image
         src="/logo.png" // Replace with your image path
         alt="Logo"
+        width={30}
+        height={30}
         className={styles.logoImage}
       />
       <h2 className={styles.registerH2}>Want To Be A Part Of Abuja’s Biggest Tech Community?</h2>

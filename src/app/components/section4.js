@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import styles from "../styles/section4.module.css";
 import { FaArrowRight } from "react-icons/fa";
@@ -65,10 +66,12 @@ const Section4 = () => {
               transform: "translate(-50%, -50%)",
             }}
           >
-            <img
+            <Image
               src={users[index].img}
               alt={users[index].name}
               className={styles.userImage}
+              width={100}
+              height={100}
             />
           </div>
         ))}

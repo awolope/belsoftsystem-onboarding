@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import Link from 'next/link';
 import {  FaArrowRight } from 'react-icons/fa';
 import styles from '../styles/Navbar.module.css'
@@ -7,10 +8,12 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-      <img
+      <Image
           src="/logo.png" // Replace with your image path
           alt="Logo"
-          className={styles.logoImage}
+          
+          width={50}
+          height={50}
         />
         <Link href="/">Founder’s Friday</Link>
       </div>
