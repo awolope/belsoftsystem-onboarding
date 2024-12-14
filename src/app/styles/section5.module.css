@@ -51,17 +51,20 @@
   background-color: white;
   color: #372066;
 }
-@media (max-width: 575px){
-.section5{
- display:block;
- text-align:center; 
+@media (max-width: 575px) {
+  .section5 {
+    display: block;
+    text-align: center;
+  }
+  .founder {
+    width: 100%;
+  }
 }
- .founder{
-  width:100%;
- } 
-}
-@media only screen and (max-width: 1024px){
- .section5{
-  display:block;
- } 
+@media only screen and (max-width: 1024px) {
+  .section5 {
+    display: block;
+  }
+  .founder {
+    width: 100%;
+  }
 }
