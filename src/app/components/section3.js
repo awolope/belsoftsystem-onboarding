@@ -7,9 +7,9 @@ import styles from "../styles/Section3.module.css";
 const Section3 = () => {
   const [location, setLocation] = useState("Kaduna");
   const [isPaused, setIsPaused] = useState(false);
-  const locations = ["Kaduna", "Abuja", "Kano"];
 
   useEffect(() => {
+    const locations = ["Kaduna", "Abuja", "Kano"];
     if (!isPaused) {
       let index = 0;
       const interval = setInterval(() => {
@@ -18,7 +18,7 @@ const Section3 = () => {
       }, 3000);
       return () => clearInterval(interval);
     }
-  }, [isPaused, locations]);
+  }, [isPaused]); // No need for 'locations' in dependencies anymore
 
   return (
     <section className={styles.container}>

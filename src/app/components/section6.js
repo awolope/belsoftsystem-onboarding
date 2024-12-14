@@ -101,10 +101,12 @@ const AttendeesAndFAQ = () => {
 
           {attendees.slice(startIndex, startIndex + 3).map((attendee) => (
             <div key={attendee.id} className={styles.attendee}>
-              <img
+              <Image
                 src={attendee.img}
                 alt={attendee.name}
                 className={styles.attendeeImage}
+                width={100}
+                height={100}
               />
               <p className={styles.attendeeText}>{attendee.text}</p>
             </div>
