@@ -17,7 +17,7 @@ const Section1 = () => {
           <h1>Connect, Collaborate, Innovate!</h1>
           <p>
            Every last Friday of the month, we bring together the brightest
-minds in our local tech ecosystem. Whether you're a seasoned
+minds in our local tech ecosystem. Whether you&apos;re a seasoned
 entrepreneur or just starting your journey, Founder&apos;s Friday is your
 launchpad for new ideas, valuable connections, and game-changing
 opportunities.
