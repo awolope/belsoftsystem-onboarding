@@ -55,7 +55,6 @@
   justify-content: center;
   overflow: hidden;
   gap: 1rem;
-  padding: 3rem;
 }
 
 .attendee {
@@ -117,9 +116,9 @@
 
 .faqWrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  padding: 100px;
+  padding: 70px;
   margin-top: -70px;
 }
 
