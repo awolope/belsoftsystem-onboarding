@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
 import styles from "../styles/Section3.module.css";
 
 const Section3 = () => {
@@ -29,6 +30,9 @@ const Section3 = () => {
           turpis. Pellentesque habitant morbi tristique senectus et netus et
           malesuada fames ac turpis egestas. 
         </p>
+        <button type="submit" className={styles.registerButton}>
+          Register <FaArrowRight className={styles.icon} />
+        </button>
       </div>
       <div className={styles.left}>
         <Image

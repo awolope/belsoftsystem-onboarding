@@ -218,22 +218,28 @@
     height: 100px;
   }
   .circle2 {
-    width: 50%;
-    height: 100px;
+    width: 45%;
+    height: 80px;
   }
   .circle P {
-    font-size: 7px;
-    line-height: 8px;
+    font-size: 5.6px;
+    line-height: 5px;
   }
   .circle2 P {
-    font-size: 8px;
+    font-size: 5.6px;
+    line-height: 5px;
+  }
+  .content h6 {
+    font-size: 15px;
   }
   .circle h3 {
     font-size: 10px;
+    line-height: 10px;
     margin-top: 20px;
   }
   .circle2 h3 {
     font-size: 10px;
+    line-height: 10px;
     margin-top: 20px;
   }
   .formGroup {
@@ -263,19 +269,8 @@
     max-width: 70%;
   }
 
-  .card {
-    max-width: 80%;
-  }
-
-  .circle {
-    width: 120px;
-    height: 120px;
-  }
-
-  .circle h3 {
-    font-size: 8px;
-    margin-top: 40px;
-  }
+  
+  
 
   .head h1 {
     font-size: 30px;

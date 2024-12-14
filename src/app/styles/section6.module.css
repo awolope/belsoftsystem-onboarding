@@ -1,0 +1,247 @@
+.container {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 100%;
+  padding: 50px;
+  overflow: hidden;
+  
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #4b0082;
+}
+
+.registerButton {
+
+  padding: 0.5rem 2rem;
+  background-color:white;
+  color: #4b0082;
+  border: 1px solid #4b0082;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+.buttonDiv{
+display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+.registerButton:hover {
+  background-color:  #372066;
+  color:white;
+}
+.logoImage {
+  width: 40px;
+  text-align: left;
+}
+/* Attendees Section */
+.attendeesSection {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.registerH2{
+text-align:center;
+
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 700;
+line-height: 36.25px;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.attendeesWrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  gap: 1rem;
+}
+
+.attendee {
+  flex: 1;
+  max-width: 30%;
+}
+
+.attendeeImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  object-fit: cover;
+  border: 2px solid #4b0082;
+}
+
+.attendeeText {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.attendeesSection {
+  position: relative;
+  padding: 20px;
+}
+
+.arrowsWrapper {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  display: flex;
+  gap: 10px; /* Space between the arrows */
+}
+
+.arrow {
+  font-size: 20px;
+  border: 1px solid #4b0082;
+border-radius:50%;
+padding :5px;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.arrow:hover {
+  color: #000;
+}
+
+.attendeesWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* FAQ Section */
+.faqSection {
+  margin-top: 5rem;
+ 
+}
+
+.faqWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+padding:70px;
+margin-top:-70px;
+  
+}
+
+.faqItem {
+  text-align: left;
+}
+
+.faqQuestion {
+  font-weight: bold;
+  cursor: pointer;
+  color: #4b0082;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faqAnswer {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+.heading {
+  text-align: left;
+  color: black;
+}
+
+
+
+/* Media Queries */
+
+/* Extra Large Screens (1200px and above) */
+@media (min-width: 1200px) {
+  .faqWrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large Screens (992px - 1199px) */
+@media (max-width: 1199px) {
+  .attendeesWrapper {
+    gap: 0.8rem;
+  }
+
+  .faqWrapper {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+  }
+}
+
+/* Tablets (768px - 991px) */
+@media (max-width: 991px) {
+  .attendeesWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .attendee {
+    max-width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .faqWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .arrowsWrapper {
+    right: 5px;
+  }
+}
+
+/* Mobile Devices (576px - 767px) */
+@media (max-width: 767px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .attendeeImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+.faqWrapper{
+  margin-top:0px;
+}
+  .registerButton {
+    font-size: 1rem;
+  }
+}
+
+/* Small Mobile Devices (up to 575px) */
+@media (max-width: 575px) {
+  .container {
+    padding: 0.5rem;
+    text-align:center;
+  }
+.faqWrapper{
+  margin-top:0px;
+}
+  .attendeeText {
+    font-size: 0.8rem;
+  }
+
+  .faqWrapper {
+    padding: 20px;
+    gap: 0.5rem;
+  }
+
+  .faqQuestion {
+    font-size: 0.9rem;
+  }
+
+  .arrow {
+    font-size: 20px;
+  }
+}
