@@ -4,7 +4,6 @@
   max-width: 100%;
   padding: 50px;
   overflow: hidden;
-  
 }
 
 .heading {
@@ -14,26 +13,25 @@
 }
 
 .registerButton {
-
   padding: 0.5rem 2rem;
-  background-color:white;
+  background-color: white;
   color: #4b0082;
   border: 1px solid #4b0082;
   border-radius: 15px;
   font-size: 1.1rem;
   cursor: pointer;
-  
+
   margin-top: 20px;
   transition: background-color 0.3s;
 }
-.buttonDiv{
-display: flex; 
-  justify-content: center; 
+.buttonDiv {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .registerButton:hover {
-  background-color:  #372066;
-  color:white;
+  background-color: #372066;
+  color: white;
 }
 .logoImage {
   width: 40px;
@@ -44,17 +42,13 @@ display: flex;
   position: relative;
   margin-bottom: 2rem;
 }
-.registerH2{
-text-align:center;
+.registerH2 {
+  text-align: center;
 
-font-family: Montserrat;
-font-size: 25px;
-font-weight: 700;
-line-height: 36.25px;
-
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36.25px;
 }
 .attendeesWrapper {
   display: flex;
@@ -98,8 +92,8 @@ text-decoration-skip-ink: none;
 .arrow {
   font-size: 20px;
   border: 1px solid #4b0082;
-border-radius:50%;
-padding :5px;
+  border-radius: 50%;
+  padding: 5px;
   cursor: pointer;
   color: black;
   transition: color 0.3s ease;
@@ -118,16 +112,14 @@ padding :5px;
 /* FAQ Section */
 .faqSection {
   margin-top: 5rem;
- 
 }
 
 .faqWrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-padding:70px;
-margin-top:-70px;
-  
+  padding: 70px;
+  margin-top: -70px;
 }
 
 .faqItem {
@@ -152,8 +144,6 @@ margin-top:-70px;
   text-align: left;
   color: black;
 }
-
-
 
 /* Media Queries */
 
@@ -211,9 +201,9 @@ margin-top:-70px;
   .heading {
     font-size: 1.5rem;
   }
-.faqWrapper{
-  margin-top:0px;
-}
+  .faqWrapper {
+    margin-top: 0px;
+  }
   .registerButton {
     font-size: 1rem;
   }
@@ -223,11 +213,10 @@ margin-top:-70px;
 @media (max-width: 575px) {
   .container {
     padding: 0.5rem;
-    text-align:center;
   }
-.faqWrapper{
-  margin-top:0px;
-}
+  .faqWrapper {
+    margin-top: 0px;
+  }
   .attendeeText {
     font-size: 0.8rem;
   }

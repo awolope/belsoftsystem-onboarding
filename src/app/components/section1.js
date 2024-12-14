@@ -16,12 +16,11 @@ const Section1 = () => {
           </p>
           <h1>Connect, Collaborate, Innovate!</h1>
           <p>
-           Every last Friday of the month, we bring together the brightest
-minds in our local tech ecosystem. Whether you&apos;re a seasoned
-entrepreneur or just starting your journey, Founder&apos;s Friday is your
-launchpad for new ideas, valuable connections, and game-changing
-opportunities.
-
+            Every last Friday of the month, we bring together the brightest
+            minds in our local tech ecosystem. Whether you&apos;re a seasoned
+            entrepreneur or just starting your journey, Founder&apos;s Friday is
+            your launchpad for new ideas, valuable connections, and
+            game-changing opportunities.
           </p>
           <button className={styles.registerButton}>
             Register For Our Next Event{" "}
@@ -153,7 +152,7 @@ opportunities.
               Donate{" "}
               <span>
                 <Image
-                  src="/Money bag.png"
+                  src="/Money Bag.png"
                   alt="Founder's Friday"
                   width={13}
                   height={10}
@@ -162,8 +161,8 @@ opportunities.
             </button>
           </div>
           <strong className={styles.aboutpp}>
-           Founder&apos;s Friday is more than just a meetup — it&apos;s a movement.
-
+            Founder&apos;s Friday is more than just a meetup — it&apos;s a
+            movement.
           </strong>
           <div className={styles.curvedLine}></div>
         </div>
