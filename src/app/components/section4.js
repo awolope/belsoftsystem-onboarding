@@ -2,17 +2,19 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/section4.module.css";
 import { FaArrowRight } from "react-icons/fa";
-const Section4 = () => {
-  const users = [
-    { id: 1, name: "User 1", img: "/Ellipse 309.png" },
-    { id: 2, name: "User 2", img: "/Ellipse 309.png" },
-    { id: 3, name: "User 3", img: "/Ellipse 309.png" },
-    { id: 4, name: "User 4", img: "/Ellipse 309.png" },
-    { id: 5, name: "User 5", img: "/Ellipse 309.png" },
-    { id: 6, name: "User 6", img: "/Ellipse 309.png" },
-    { id: 7, name: "User 7", img: "/Ellipse 309.png" },
-  ];
 
+// Move `users` outside the component to ensure it doesn't change between renders
+const users = [
+  { id: 1, name: "User 1", img: "/Ellipse 309.png" },
+  { id: 2, name: "User 2", img: "/Ellipse 309.png" },
+  { id: 3, name: "User 3", img: "/Ellipse 309.png" },
+  { id: 4, name: "User 4", img: "/Ellipse 309.png" },
+  { id: 5, name: "User 5", img: "/Ellipse 309.png" },
+  { id: 6, name: "User 6", img: "/Ellipse 309.png" },
+  { id: 7, name: "User 7", img: "/Ellipse 309.png" },
+];
+
+const Section4 = () => {
   const [positions, setPositions] = useState([]);
 
   useEffect(() => {
@@ -26,7 +28,7 @@ const Section4 = () => {
     });
 
     setPositions(calculatedPositions);
-  }, [users]);
+  }, []); // No dependencies because `users` is now static
 
   return (
     <div className={styles.container}>

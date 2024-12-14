@@ -59,10 +59,10 @@ const Section2 = () => {
               <input type="text" id="name" placeholder="Full name" />
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="name">Company Name (optional)</label>
+              <label htmlFor="companyName">Company Name (optional)</label>
               <input
                 type="text"
-                id="companyname"
+                id="companyName"
                 placeholder="Enter your email"
               />
             </div>
