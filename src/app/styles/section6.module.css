@@ -55,6 +55,7 @@
   justify-content: center;
   overflow: hidden;
   gap: 1rem;
+  padding: 3rem;
 }
 
 .attendee {
@@ -118,7 +119,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  padding: 70px;
+  padding: 100px;
   margin-top: -70px;
 }
 
