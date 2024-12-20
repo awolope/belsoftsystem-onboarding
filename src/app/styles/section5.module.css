@@ -16,8 +16,7 @@
   font-weight: 600;
   line-height: 18.8px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+
   margin-top: 20px;
 }
 .section5img {
@@ -31,10 +30,8 @@
   font-weight: 900;
   line-height: 28.8px;
   text-align: left;
-  color: (--Grays-Gray, rgba(142, 142, 147, 1));
+  color: (rgba(142, 142, 147, 1));
   margin-top: 20px;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .registerButton {
   padding: 0.5rem 2rem;
