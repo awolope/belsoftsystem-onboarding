@@ -210,7 +210,7 @@
   .card {
     width: 100%;
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.1rem;
   }
 
   .circle {
@@ -269,9 +269,6 @@
     max-width: 70%;
   }
 
-  
-  
-
   .head h1 {
     font-size: 30px;
   }
@@ -293,15 +290,27 @@
   }
 
   .circle {
-    width: 80px;
+    width: 100px;
     height: 80px;
   }
-
+  .circle2 {
+    width: 100px;
+    height: 80px;
+  }
   .circle h3 {
     font-size: 7px;
     margin-top: 20px;
   }
-
+  .circle p {
+    font-size: 5px;
+  }
+  .circle2 p {
+    font-size: 5px;
+  }
+  .circle2 h3 {
+    font-size: 7px;
+    margin-top: 20px;
+  }
   .formGroup input,
   .formGroup textarea {
     font-size: 12px;
